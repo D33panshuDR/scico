@@ -58,6 +58,14 @@ module.exports = {
         },
       },
 
+      keyframes: {
+        movex: {
+          "0%": { transform: "translateX(-20rem)" },
+          "50%": { transform: "translateX(-5rem)" },
+          "100%": { transform: "translateX(-20rem)" },
+        },
+      },
+
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
@@ -76,6 +84,10 @@ module.exports = {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
     },
+    animation: {
+      movex: "movex 10s ease-in-out infinite",
+    },
   },
+
   plugins: [],
 };
