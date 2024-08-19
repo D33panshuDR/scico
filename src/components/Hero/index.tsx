@@ -55,6 +55,30 @@ const Hero = () => {
                     </span>
                   </button>
                 </Link>
+                <Link href="mailto:naren@gmal.com">
+                  <button
+                    type="button"
+                    data-twe-ripple-init
+                    data-twe-ripple-color="light"
+                    className="inline-block rounded-full bg-[#F80B72] p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:bg-[#F80B72]/90 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  >
+                    <span className="[&>svg]:h-4 [&>svg]:w-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </Link>
                 {/* <button
                   type="button"
                   data-twe-ripple-init
@@ -76,7 +100,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute right-0 top-0 z-[-1] opacity-30 motion-safe:animate-pulse lg:opacity-100">
+      <div className="motion-safe:animate-pulse absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
         <svg
           width="450"
           height="556"
@@ -209,7 +233,7 @@ const Hero = () => {
           </defs>
         </svg>
       </div>
-      <div className="absolute bottom-0 left-0 z-[-1] opacity-30 motion-safe:animate-pulse lg:opacity-100">
+      <div className="motion-safe:animate-pulse absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
         <svg
           width="364"
           height="201"

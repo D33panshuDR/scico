@@ -26,7 +26,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                The home of Science Council of IISERB
+                The Home of Science Council of IISERB
               </p>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:justify-normal sm:space-x-4 sm:space-y-0">
                 <Link
@@ -97,7 +97,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="/blog"
+                    href="/"
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     Home
@@ -105,18 +105,26 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/#about"
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    Blog
+                    About
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/about"
+                    href="/#clubs"
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    About
+                    Clubs & Fests
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#members"
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Members
                   </Link>
                 </li>
               </ul>

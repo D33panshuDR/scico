@@ -1,10 +1,9 @@
 import Blog from "@/components/Blog";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Hero from "@/components/Hero";
-import Video from "@/components/Gallery";
+import Team from "@/components/Team";
 import { Metadata } from "next";
 import Work from "@/components/Work";
-import Team from "@/components/Team";
 
 export const metadata: Metadata = {
   title: "Science Council IISERB",
@@ -18,14 +17,14 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Work />
-      <Video />
+      <Team />
       {/* <Brands /> */}
       {/* <AboutSectionOne /> */}
       {/* <AboutSectionTwo /> */}
       {/* <Testimonials /> */}
-      <Team />
+      {/* <Team /> */}
       {/* <Pricing /> */}
-      <Blog />
+      {/* <Blog /> */}
       {/* <Contact /> */}
     </>
   );

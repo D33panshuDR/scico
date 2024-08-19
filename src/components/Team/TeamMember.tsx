@@ -1,7 +1,7 @@
-import { Team } from "@/types/team";
+import { TeamType } from "@/types/team";
 import Image from "next/image";
 
-const TeamMember = ({ team }: { team: Team }) => {
+const TeamMember = ({ team }: { team: TeamType }) => {
   const { name, image, content, designation } = team;
 
   return (

@@ -43,3 +43,8 @@
     scrollbar-width: none; /* Firefox */
   }
 }
+
+* {
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
+}

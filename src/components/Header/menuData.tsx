@@ -10,15 +10,26 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "About",
-    path: "/about",
+    path: "/#about-us",
     newTab: false,
   },
   {
-    id: 33,
-    title: "Blog",
-    path: "/blog",
+    id: 3,
+    title: "Clubs & Fests",
+    path: "/#clubs",
     newTab: false,
   },
- 
+  {
+    id: 4,
+    title: "Members",
+    path: "/#members",
+    newTab: false,
+  },
+  // {
+  //   id: 33,
+  //   title: "Blog",
+  //   path: "/blog",
+  //   newTab: false,
+  // },
 ];
 export default menuData;
