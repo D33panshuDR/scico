@@ -4,6 +4,8 @@ import Hero from "@/components/Hero";
 import Team from "@/components/Team";
 import { Metadata } from "next";
 import Work from "@/components/Work";
+import Activity from "@/components/Activity";
+import Uploads from "@/components/Upload";
 
 export const metadata: Metadata = {
   title: "Science Council IISERB",
@@ -18,14 +20,8 @@ export default function Home() {
       <Hero />
       <Work />
       <Team />
-      {/* <Brands /> */}
-      {/* <AboutSectionOne /> */}
-      {/* <AboutSectionTwo /> */}
-      {/* <Testimonials /> */}
-      {/* <Team /> */}
-      {/* <Pricing /> */}
-      {/* <Blog /> */}
-      {/* <Contact /> */}
+      <Activity />
+      <Uploads />
     </>
   );
 }

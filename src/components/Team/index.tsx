@@ -10,66 +10,66 @@ import TeamMember from "./TeamMember";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Sec",
-    content: "Some description",
-    image: "/images/testimonials/auth-01.png",
+    name: "Suraj Chauhan",
+    designation: "Secretary",
+    content: "Currently serving as the Science Council's secretary, but my real qualifications are: dog whispering, music jamming, and an uncanny ability to turn any experiment into a cringe sketch",
+    image: "/images/team/SurajChauhan.jpg",
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Vice Sec",
-    content: "Some description",
-    image: "/images/testimonials/auth-02.png",
+    name: "Sulagna Sharma",
+    designation: "Vice Secretary",
+    content: "I might be bad at socializing but atleast I'm way worse at Physics",
+    image: "/images/team/Sulagna Saha.jpg",
+  },
+  {
+    id: 7,
+    name: "Dhawal Pahuja",
+    designation: "Vice Secretary",
+    content: "Running council meetings and Singularity chores —because who says scores matter",
+    image: "/images/team/DhawalPahuja.jpg",
+  },
+  {
+    id: 10,
+    name: "Vedika Jakate",
+    designation: "Core Committee",
+    content: "Impossible only means that you haven't found the solution yet",
+    image: "/images/team/Vedika_Jakate.jpg",
   },
   {
     id: 3,
-    name: "Lethium Frenci",
+    name: "Vaidehi Sawant",
     designation: "Core Committee",
-    content: "Some description",
-    image: "/images/testimonials/auth-03.png",
+    content: "Keep asking questions till you have none at all",
+    image: "/images/team/VaidehiSawant.jpg",
   },
   {
-    id: 3,
-    name: "Lethium Frenci",
+    id: 4,
+    name: "Sibani Sankar Parida",
     designation: "Core Committee",
-    content: "Some description",
-    image: "/images/testimonials/auth-03.png",
+    content: "Jack of all trades, master of none, but oftentimes better than a master of one",
+    image: "/images/team/Sibani Sankar Parida.jpg",
   },
   {
-    id: 3,
-    name: "Lethium Frenci",
+    id: 5,
+    name: "Divya Sharma",
     designation: "Core Committee",
-    content: "Some description",
-    image: "/images/testimonials/auth-03.png",
+    content: "Ofcourse size matters, noone wants a small cup of coffee",
+    image: "/images/team/DivyaSharma.jpg",
   },
   {
-    id: 3,
-    name: "Lethium Frenci",
+    id: 6,
+    name: "Deepanshu Raj",
     designation: "Core Committee",
-    content: "Some description",
-    image: "/images/testimonials/auth-03.png",
+    content: "You need compilers to understand my poetry",
+    image: "/images/team/DeepanshuRaj.jpg",
   },
   {
-    id: 3,
-    name: "Lethium Frenci",
+    id: 9,
+    name: "Naren Karthik",
     designation: "Core Committee",
-    content: "Some description",
-    image: "/images/testimonials/auth-03.png",
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Core Committee",
-    content: "Some description",
-    image: "/images/testimonials/auth-03.png",
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Core Committee",
-    content: "Some description",
-    image: "/images/testimonials/auth-03.png",
+    content: "Drink coffee, code and don't expect placements in a science institute",
+    image: "/images/team/NarenKarthik.jpeg",
   },
 ];
 
@@ -78,24 +78,11 @@ const Team = () => {
 
   return (
     <section id="members" className="relative z-10 py-16 md:py-20 lg:py-28">
-      <div className="container">
+      <div className="">
         <SectionTitle title="Council Members" paragraph="" center mb="80px" />
 
-        {/* <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div
-              className="mx-auto max-w-[770px] overflow-hidden rounded-md"
-              data-wow-delay=".15s"
-            >
-              <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="" alt="Some Image" fill />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="no-scrollbar relative flex h-[450px] w-full items-center overflow-y-hidden overflow-x-scroll">
-          <div className="absolute left-0 top-0 flex h-[450px] gap-8">
+        <div className="no-scrollbar relative flex h-[550px] w-full items-center overflow-y-hidden overflow-x-scroll">
+          <div className="absolute left-0 top-0 flex h-[550px] gap-8">
             {teamData.map((team, i) => (
               <TeamMember key={`${team.id} ${i}`} team={team} />
             ))}
